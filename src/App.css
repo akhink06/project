@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  width: 100%;
+  box-sizing: border-box;
+}
+.AppGlass {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 7% auto 21%;
+}
