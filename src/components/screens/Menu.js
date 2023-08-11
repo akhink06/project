@@ -21,7 +21,7 @@ function Menu() {
         <MealsNavBar>
           <ListBox>
             <ListItem>
-              <NavLink className={({isActive}) => isActive?"active":""} to="/menu/recommended" style={navLinkStyle}>Recommended</NavLink>
+              <NavLink className={({isActive}) => isActive?"active":""} to="/menu/recommend" style={navLinkStyle}>Recommended</NavLink>
               </ListItem>
             <ListItem>
               <NavLink className={({isActive}) => isActive?"active":""} to="/menu/breakfast" style={navLinkStyle}>Breakfast</NavLink>

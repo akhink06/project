@@ -37,7 +37,7 @@ function SideBar() {
         <MidItem5><NavLink to="/cart" className={({isActive}) => isActive?"active":""} style={navLinkStyle}><Cart /></NavLink></MidItem5>
         <MidItem6><NavLink to="/settings" className={({isActive}) => isActive?"active":""} style={navLinkStyle}><Settings /></NavLink></MidItem6>
         <MidItem7><NavLink to="/profile" className={({isActive}) => isActive?"active":""} style={navLinkStyle}><Profile /></NavLink></MidItem7>
-        <MidItem8><NavLink to="/support" className={({isActive}) => isActive?"active":""} style={navLinkStyle}><Support /></NavLink></MidItem8>
+        <MidItem8><NavLink to="/Details" className={({isActive}) => isActive?"active":""} style={navLinkStyle}><Support /></NavLink></MidItem8>
       </Middle>
 
       <Bottom className='bottom'>
@@ -68,13 +68,14 @@ const LogoImage = styled.img`
 `;
 const Middle = styled.ul`
     background-color: #F46801;
-    width: 29%;
+    width: 50%;
     padding: 15%;
     margin: auto;
     border-radius: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 `;
 const MidItem1 = styled.li`
     display: flex;

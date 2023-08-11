@@ -1,13 +1,65 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-ul,ol {
-  list-style: none;
+ol, ul {
+	list-style: none;
 }
-a {
-  text-decoration: none;
+del {
+	text-decoration: line-through;
+}
+body {
+    font-family: 'Inter-Regular';
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-weight: 400;
+    font-family: 'Inter-Regular';
+}
+
+a{
+	color: #1C2C40;
+    font-family: 'Inter-Regular';
+
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-weight: 400;
+    font-family: 'Inter-Regular';
+}
+.hidden{
+	display: none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
 }
 @font-face {
   font-family: 'Inter-Light';
@@ -44,6 +96,33 @@ a {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../src/Assets/Fonts/Inter-Bold.woff2') format('woff2'),
+      url('../src/Assets/Fonts/Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../src/Assets/Fonts/Inter-SemiBold.woff2') format('woff2'),
+      url('../src/Assets/Fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url('../src/Assets/Fonts/Inter-Thin.woff2') format('woff2'),
+      url('../src/Assets/Fonts/Inter-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 
 
