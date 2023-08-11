@@ -20,7 +20,7 @@ export const MenuData = [
     },
 ];
 
-// MainSpace Menubar Data
+// MainBar Menubar Data
 export const Menudata =[
     {
         id: 1,
@@ -81,7 +81,7 @@ export const Dinner = [
     }
 ];
 
-// Recommended Page Data
+// Recommend Page Data
 export const RecommendData =[
     {
         id: 6,
