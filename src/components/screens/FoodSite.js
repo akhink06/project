@@ -1,27 +1,28 @@
-import React from 'react'
-import { styled } from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
-export default function FoodSite() {
+function FoodSite() {
   return (
-    <MainContainer>
-        
-        <Header>Coming Soon...!</Header>
-        
-    </MainContainer>
-    
-  )
-}
+    <FoodSiteBox className='FoodSite'>
+      <Content> Coming Soon.....! </Content>
+    </FoodSiteBox>
+  );
+};
 
-const MainContainer = styled.div`
-    height:100vh;
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+export default FoodSite;
+
+const FoodSiteBox = styled.div`
+    width: 67.5%;
+    height: 65%;
+    position:absolute;
+    top: 20%;
+    left: 9%;
     color: #f46801;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+const Content = styled.h3`
+    font-size: 35px;
     
-`
-const Header = styled.h1`
-margin: auto 0 ;
-
-`
+`;
