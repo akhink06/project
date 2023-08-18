@@ -53,7 +53,7 @@ export const Menudata =[
 export const BreakFast = [
     {
         id: 1,
-        image: require("../../Assets/Rectangle 20662.jpg"),
+        image: require("../../Assets/Rectangle 20664.jpg"),
     },
     {
         id: 2,
@@ -85,37 +85,37 @@ export const Dinner = [
 export const RecommendData =[
     {
         id: 6,
-        image: require("../../Assets/Rectangle 20667.jpg"),
+        image: require("../../Assets/Rectangle 20669.jpg"),
         value1: "8,10",
         value2: "10,10",
     },
     {
         id: 7,
-        image: require("../../Assets/Rectangle 20668.jpg"),
+        image: require("../../Assets/Rectangle 20667.jpg"),
         value1: "9,10",
         value2: "12,10",
     },
     {
         id: 8,
-        image: require("../../Assets/Rectangle 20669.jpg"),
+        image: require("../../Assets/Rectangle 20668.jpg"),
         value1: "5,60",
         value2: "10,24",
     },
     {
         id: 9,
-        image: require("../../Assets/Rectangle 20670.jpg"),
+        image: require("../../Assets/Rectangle 20665.jpg"),
         value1: "9,24",
         value2: "10,10",
     },
     {
         id: 10,
-        image: require("../../Assets/Rectangle 20671.jpg"),
+        image: require("../../Assets/Rectangle 20662.jpg"),
         value1: "8,10",
         value2: "10,10",
     },
     {
         id: 11,
-        image: require("../../Assets/Rectangle 20667.jpg"),
+        image: require("../../Assets/Rectangle 20666.jpg"),
         value1: "18,00",
         value2: "20,05",
     },

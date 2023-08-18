@@ -57,9 +57,10 @@ const Sidebar = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    @media all and (max-width:1380px) {
+       padding: 25% 0;
+    }
 `;
-
-
 const Top = styled.div`
     width: 52%;
 `;
@@ -68,14 +69,19 @@ const LogoImage = styled.img`
 `;
 const Middle = styled.ul`
     background-color: #F46801;
-    width: 50%;
-    padding: 15%;
+    width: 60%;
+    padding: 13%;
     margin: auto;
     border-radius: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    @media all and (max-width:1140px) {
+       padding: 13% 40%;
+    }
+    @media all and (max-width:980px) {
+       padding: 13% 46%;
+    }
 `;
 const MidItem1 = styled.li`
     display: flex;
@@ -92,6 +98,9 @@ const MidItem8 = styled(MidItem1)``;
 const Bottom = styled.div`
     width: 52%;
     margin: 0 auto;
+    @media all and (max-width:980px) {
+      width: 70%;
+    }
 `;
 const PersonImage = styled.img`
     width: 100%;

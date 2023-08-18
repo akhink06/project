@@ -37,4 +37,10 @@ const DetailsBox = styled.div`
 
 const Content = styled.h3`
     font-size: 35px;
+    @media all and  (max-width:1380px) {
+      font-size: 30px;
+    }
+    @media all and  (max-width:1380px) {
+      font-size: 25px;
+    }
 `;
